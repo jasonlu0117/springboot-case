@@ -1,4 +1,4 @@
-package com.lym.entity;
+package com.lym.entity.test;
 
 import java.sql.Timestamp;
 

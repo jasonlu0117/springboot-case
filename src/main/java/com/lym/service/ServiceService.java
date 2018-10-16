@@ -2,10 +2,12 @@ package com.lym.service;
 
 import java.util.List;
 
-import com.lym.entity.Service;
+import com.lym.vo.bo.ServiceFilterBo;
 
 public interface ServiceService {
 
-    List<Service> getServiceByOwnerId(String ownerId);
+	public List<com.lym.entity.test.Service> getServiceByOwnerId(String ownerId);
     
+    public ServiceFilterBo getServiceByFilter(String ownerId, int dataType, int groupId);
+
 }

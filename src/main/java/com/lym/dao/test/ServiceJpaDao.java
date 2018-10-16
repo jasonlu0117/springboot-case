@@ -1,4 +1,4 @@
-package com.lym.dao;
+package com.lym.dao.test;
 
 import java.io.Serializable;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.lym.entity.Service;
+import com.lym.entity.test.Service;
 
 public interface ServiceJpaDao extends JpaRepository<Service, Serializable> {
 
